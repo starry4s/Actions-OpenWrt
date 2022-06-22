@@ -19,8 +19,8 @@
 
 # openclash
 #sed -i '$a\src-git openclash https://github.com/vernesong/OpenClash' ./feeds.conf.default
-#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' ./feeds.conf.default
-#sed -i '$a src-git small https://github.com/kenzok8/small' ./feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' ./feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' ./feeds.conf.default
 
-sed -i '$a src-git hwfuture https://github.com/hongweifuture/openwrt-packages' feeds.conf.default
-sed -i '$a src-git pwdep https://github.com/hongweifuture/pwdep.git' feeds.conf.default
+#sed -i '$a src-git hwfuture https://github.com/hongweifuture/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git pwdep https://github.com/hongweifuture/pwdep.git' feeds.conf.default
